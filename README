@@ -1,0 +1,22 @@
+=========== PIRATE'S CURSE ===========
+So, this guy who was supposed to be developing the app for the online treasure hunt at the techfest of my college (Goa Engineering College), Technix Six (http://gectechnix.in) decided to ditch the team at the last moment, leaving the event with absolutely no hopes.
+
+Coded this as a makeshift treasure hunt application.
+
+Entire code written in 2 hours flat (Yes, it's inefficient. Yes, it's Naive. But it works.)
+
+Event works as follows:
+1) Clues shown as images. Answer to each clue is a text string.
+2) User may choose to skip a question and return to it later on.
+3) If user answers and
+		- Answer is correct
+			Go to Next question
+		- Answer is wrong
+			Come back to same question
+4) Admin can onitor status of the teams.
+5) Also added an easter egg of a cheat code which when entered by any team, makes the team win instantly! :P
+6) The design aspect of it is as minimal as possible, with barely 2-3 divs defined. Will probably improve this someday!
+
+NOTE: All basic settings changable in 'var.php'
+To change questions/answers, see the questions table in the database.
+To change users and their passwords, see users table in database.

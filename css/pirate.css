@@ -1,0 +1,48 @@
+body{color: #fff;font-family: Arial, sans-serif;
+	font-size: 13pt;
+    font-weight: normal;
+	line-height: 1.5;
+	background:#000 url(../site/repeat.jpg) top left repeat;
+}
+a{
+text-transform:uppercase;
+color: #fff;
+}
+
+a:hover{
+color: #00f;
+}
+#headerpic{
+position: absolute;
+float: left;
+padding: 0px 0px 0px 32%;
+z-index:90;
+}
+
+#logout{
+position: relative;
+float: left;
+z-index:100;
+}
+#piratediv{
+	position: absolute;
+	left:20%;
+	top:25%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: url(../site/repeat.png) top left repeat;
+	text-align: center;
+}
+#ansdiv{
+	position: absolute;
+	left:30%;
+	top:25%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: url(../site/repeat.png) top left repeat;
+	text-align: center;
+}
