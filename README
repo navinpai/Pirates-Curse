@@ -13,10 +13,11 @@ Event works as follows:
 			Go to Next question
 		- Answer is wrong
 			Come back to same question
-4) Admin can onitor status of the teams.
+4) Admin can monitor status of the teams.
 5) Also added an easter egg of a cheat code which when entered by any team, makes the team win instantly! :P
 6) The design aspect of it is as minimal as possible, with barely 2-3 divs defined. Will probably improve this someday!
 
 NOTE: All basic settings changable in 'var.php'
-To change questions/answers, see the questions table in the database.
-To change users and their passwords, see users table in database.
+Import 'db.sql' into the database you are using. 
+To change questions/answers, see the 'questions' table in the database.
+To change users and their passwords, see 'users' table in database.
